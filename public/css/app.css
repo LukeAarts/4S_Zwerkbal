@@ -85,3 +85,24 @@ label{
 .form-control{
     min-width: 200px;
 }
+
+.griditem{
+    border: 3px solid #FFCA33;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.image{
+    border: 3px solid #FFCA33;
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". ."; 
+  }
